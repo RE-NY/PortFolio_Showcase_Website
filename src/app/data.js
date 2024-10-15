@@ -14,6 +14,13 @@ Websites:
   --accent: 254 254 91; #FEFE5B
 }
 
+
+default -> backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+
 */
 
 export const projectsData = [
@@ -91,25 +98,31 @@ export const projectsData = [
 
 export const BtnList = [
   { label: "Home", link: "/", icon: "home", newTab: false },
+  // { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   { label: "About", link: "/about", icon: "about", newTab: false },
   { label: "Projects", link: "/projects", icon: "projects", newTab: false },
-  { label: "Contact", link: "/contact", icon: "contact", newTab: false },
+  {
+    label: "Leetcode",
+    link: "https://leetcode.com/u/ReNY_1011",
+    icon: "leetcode",
+    newTab: true,
+  },
+  {
+    label: "Kaggle",
+    link: "https://www.kaggle.com/renykhan",
+    icon: "kaggle",
+    newTab: true,
+  },
   {
     label: "Github",
-    link: "https://www.github.com/codebucks27",
+    link: "https://github.com/RE-NY/",
     icon: "github",
     newTab: true,
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/codebucks",
+    link: "https://www.linkedin.com/in/rehan-khan-iitd/",
     icon: "linkedin",
-    newTab: true,
-  },
-  {
-    label: "X",
-    link: "https://www.x.com/code_bucks",
-    icon: "twitter",
     newTab: true,
   },
   {
